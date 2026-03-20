@@ -139,11 +139,11 @@ cp .env.example .env
 
 **`.env` Template:**
 ```bash
-# Telegram
-TELEGRAM_BOT_TOKEN=8709795108:AAGHPwpqlzM8Zq434YD7R-ZzPVrDxD8Z7nk
+# Telegram - Get from @BotFather on Telegram
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 
 # API (Optional - system uses local BLIP if not provided)
-OPENROUTER_KEY=sk-or-...
+OPENROUTER_KEY=your_openrouter_api_key_here
 
 # Ollama (Local LLM)
 OLLAMA_URL=http://localhost:11434
@@ -183,7 +183,7 @@ python telegram_bot.py
 # 🚀 Starting InfoMatica Telegram Bot
 # ================================================================================
 # Bot: @InfoMaticaBot
-# Token: 8709795108:AAGHPwpql...
+# Token: ****** (hidden for security)
 # Status: Connecting to Telegram...
 # ================================================================================
 #
