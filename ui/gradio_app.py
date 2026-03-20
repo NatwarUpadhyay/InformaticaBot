@@ -50,7 +50,7 @@ def image_upload_fn(image, vision_source):
     tags = ", ".join(result.get('tags', []))
     
     output = f"**Caption:** {caption}\n\n**Tags:** {tags}"
-    return output, image
+    return output
 
 def build_gradio_ui():
     """Build Gradio UI for testing/debugging the hybrid RAG + Vision bot"""
