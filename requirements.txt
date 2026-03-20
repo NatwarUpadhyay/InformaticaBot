@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-telegram-bot==20.7
+sentence-transformers
+sqlite-vec
+gradio
+python-dotenv
+PyPDF2
+python-docx
+pillow
+requests
