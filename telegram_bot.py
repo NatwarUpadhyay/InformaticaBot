@@ -3,7 +3,7 @@ Telegram Bot Integration for RAG + Vision Hybrid System
 Bot: @InfoMaticaBot
 Run this to start the Telegram bot with polling
 
-Token: 8709795108:AAGHPwpqlzM8Zq434YD7R-ZzPVrDxD8Z7nk
+Token: Set via TELEGRAM_BOT_TOKEN environment variable (see .env.example)
 Keep token secure!
 """
 import os
@@ -25,11 +25,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Get bot token from environment variable
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8709795108:AAGHPwpqlzM8Zq434YD7R-ZzPVrDxD8Z7nk")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 if not TELEGRAM_BOT_TOKEN:
     print("❌ Error: TELEGRAM_BOT_TOKEN environment variable not set!")
-    print("   Set it with: export TELEGRAM_BOT_TOKEN='8709795108:AAGHPwpqlzM8Zq434YD7R-ZzPVrDxD8Z7nk'")
+    print("   Set it in .env file: TELEGRAM_BOT_TOKEN=your_token_from_botfather")
+    print("   Or set it with: export TELEGRAM_BOT_TOKEN='your_token_here'")
     sys.exit(1)
 
 
