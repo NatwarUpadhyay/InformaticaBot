@@ -81,8 +81,8 @@ A lightweight, production-ready **Telegram bot** that combines **Retrieval-Augme
                     │ ├─ FAQ.md                            │
                     │ ├─ FEATURES.md                       │
                     │ ├─ PRICING.md                        │
-                    │ └─ NIPS-2017-attention-is-all-you-need-Paper.pdf │
-                    │                                      │
+                    │ └─ NIPS-2017-attention-is-all-you-   │
+                    │    need-Paper.pdf                    │
                     │ Vector Database                      │
                     │ └─ SQLite (145 chunks)               │
                     └──────────────────────────────────────┘
