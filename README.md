@@ -301,27 +301,33 @@ python -m cli.query "Tell me about pricing"
 ## 📸 Demo Screenshots
 
 ### Telegram Bot — `/start`
-![Start Command](screenshots/telegram_start.png)
+<img width="1179" height="425" alt="Telegram_Bot_Initiation" src="https://github.com/user-attachments/assets/d1486caa-606b-47b8-9b9c-122ad1003a27" />
+
 *Bot initialisation showing hybrid RAG + Vision capabilities and available commands*
 
 ### Telegram Bot — `/ask` (RAG) + `/image` (Vision)
-![Ask and Image](screenshots/telegram_ask_image.png)
+<img width="1179" height="799" alt="Telgram_Hybrid_Bot" src="https://github.com/user-attachments/assets/37554721-fcab-4af5-a2cc-2b424c6eb170" />
+
 *Top: `/ask` querying Transformer attention mechanism — answer retrieved from NIPS-2017 
 paper with source citation. Bottom: `/image` with beagle photo returning 
 Caption and Tags via Mistral vision model*
 
 ### Gradio Debug UI — RAG Mode (Chat Tab)
-![Gradio RAG](screenshots/gradio_rag.png)
+<img width="1437" height="791" alt="RAG_Bot_Gradio" src="https://github.com/user-attachments/assets/1386d3aa-7af7-4062-9833-2446b0287033" />
+
 *"What is self attention mechanism?" queried via Gradio chat tab using Local Ollama model — 
 answer returned with source attribution from NIPS-2017 paper*
 
 ### Gradio Debug UI — Vision Mode (Image Tab)
-![Gradio Vision](screenshots/gradio_vision.png)
+<img width="1434" height="812" alt="Vision_Bot_Gradio" src="https://github.com/user-attachments/assets/5509e4a5-87fd-4575-87dc-c05b4b10b9ee" />
+
 *Beagle image uploaded via Gradio Vision tab — OpenRouter Mistral API returns clean 
 caption and 3 semantic tags*
 
 ### Terminal — Gradio Debug Mode Startup
-![Terminal](screenshots/gradio_terminal.png)
+<img width="746" height="279" alt="Gradio_Debug" src="https://github.com/user-attachments/assets/37274902-a719-451f-a299-551eb591033e" />
+
+
 *VS Code terminal showing Gradio startup, sentence-transformers (all-MiniLM-L6-v2) 
 loading with BertModel load report, debug mode enabled*
 
